@@ -7,7 +7,7 @@ I built this for my brother years ago, and you can find his current site here: [
 
 You can find a live view of the template using the link below:
 
-https://photonlines.github.io/Research-Lab-Website/
+[https://photonlines.github.io/Research-Lab-Website/](https://hezepy.github.io/Nakamura-Lab/)
 
 It was built using the libraries provided below:
 
