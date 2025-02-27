@@ -185,7 +185,7 @@ body>.navbar .brand:hover {
 }
 
 #media .post_row .post {
-	background: #53565A;
+	background: #bdc6d1;
 	/*margin-left: 0;;
     margin-right: 20px;*/
 	border-radius: 4px;
@@ -286,7 +286,7 @@ body>.navbar .brand:hover {
 #media .post_row .post a.plus_wrapper {
 	width: 99%;
 	text-align: center;
-	background: #53565A;
+	background: #bdc6d1;
 	display: none;
 	border-radius: 0px 0px 4px 4px;
 	padding: 6px 0px 2px;
@@ -394,16 +394,23 @@ body>.navbar .brand:hover {
 .jumbotron {
 	position: relative;
 	padding: 45px 0px 35px 0px;
-	color: #fff;
+	color: #000000;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #6495ED;
+	background: #FBD403;
+	background: -moz-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #FBD403), color-stop(100%, #bdc6d1));
+	background: -webkit-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
+	background: -o-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
+	background: -ms-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
+	background: linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%) repeat;
+	/* background: #6495ED;
 	background: -moz-linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%);
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #6495ED), color-stop(100%, #7AB8CC));
 	background: -webkit-linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%);
 	background: -o-linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%);
 	background: -ms-linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%);
-	background: linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%) repeat;
+	background: linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%) repeat; */
 	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
@@ -519,7 +526,7 @@ ul.sponsors {
 	border-top-width: 8px;
 	border-top-style: solid;
 	border-top-color: #2F2F2F;
-	background-color: #6495ED;
+	background-color: #FBD403;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -528,13 +535,13 @@ ul.sponsors {
 }
 
 #footer h3 {
-	font-size: 19px;
+	font-size: 18px;
 	text-transform: uppercase;
 	font-family: BebasNeueRegular;
-	color: #8DBECE;
+	color: #000000;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #30393C;
+	border-bottom-color: #000000;
 	line-height: 35px;
 	margin-bottom: 20px;
 	margin-top: 25px;
@@ -547,6 +554,6 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-	color: #8F8F8F;
-	font-size: 11px;
+	color: #000000;
+	font-size: 12px;
 }
