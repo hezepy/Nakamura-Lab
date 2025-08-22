@@ -394,16 +394,16 @@ body>.navbar .brand:hover {
 .jumbotron {
 	position: relative;
 	padding: 45px 0px 35px 0px;
-	color: #2F2F2F;
+	color: #000000;
 	text-align: center;
-	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #FBD403;
-	background: -moz-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #FBD403), color-stop(100%, #bdc6d1));
-	background: -webkit-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
-	background: -o-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
-	background: -ms-linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%);
-	background: linear-gradient(45deg, #FBD403 0%, #bdc6d1 100%) repeat;
+	text-shadow: 0 1px 3px rgba(255, 222, 222, 0.884), 0 0 30px rgba(0, 0, 0, .075);
+	background: #1974fd;
+	background: -moz-linear-gradient(45deg, #1974fd 0%, #bdc6d1 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #1974fd), color-stop(100%, #bdc6d1));
+	background: -webkit-linear-gradient(45deg, #1974fd 0%, #bdc6d1 100%);
+	background: -o-linear-gradient(45deg, #1974fd 0%, #bdc6d1 100%);
+	background: -ms-linear-gradient(45deg, #1974fd 0%, #bdc6d1 100%);
+	background: linear-gradient(45deg, #1974fd 0%, #bdc6d1 100%) repeat;
 	/* background: #6495ED;
 	background: -moz-linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%);
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #6495ED), color-stop(100%, #7AB8CC));
@@ -525,8 +525,8 @@ ul.sponsors {
 	padding-bottom: 25px;
 	border-top-width: 8px;
 	border-top-style: solid;
-	border-top-color: #2F2F2F;
-	background-color: #FBD403;
+	border-top-color: #c0e7f7;
+	background-color: #1974fd;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -538,10 +538,10 @@ ul.sponsors {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-family: BebasNeueRegular;
-	color: #4A4A4A;
+	color: #ffffff;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-bottom-color: #4A4A4A;
+	border-bottom-color: #ffffff;
 	line-height: 35px;
 	margin-bottom: 20px;
 	margin-top: 25px;
@@ -555,6 +555,6 @@ ul.sponsors {
 
 #footer p,
 #footer address {
-	color: #4A4A4A;
+	color: #ffffff;
 	font-size: 12px;
 }
