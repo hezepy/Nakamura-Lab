@@ -394,16 +394,16 @@ body>.navbar .brand:hover {
 .jumbotron {
 	position: relative;
 	padding: 45px 0px 35px 0px;
-	color: #000000;
+	color: #ffffff;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(255, 235, 235, 0.884), 0 0 30px rgba(0, 0, 0, .075);
-	background: #008876;
-	background: -moz-linear-gradient(45deg, #008686 0%, #bdc6d1 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #008686), color-stop(100%, #bdc6d1));
-	background: -webkit-linear-gradient(45deg, #008686 0%, #bdc6d1 100%);
-	background: -o-linear-gradient(45deg, #008686 0%, #bdc6d1 100%);
-	background: -ms-linear-gradient(45deg, #008686 0%, #bdc6d1 100%);
-	background: linear-gradient(45deg, #008686 0%, #bdc6d1 100%) repeat;
+	background: #005348;
+	/* background: -moz-linear-gradient(45deg, #005348 0%, #9199a1 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #005348), color-stop(100%, #bdc6d1));
+	background: -webkit-linear-gradient(45deg, #005348 0%, #9199a1 100%);
+	background: -o-linear-gradient(45deg, #005348 0%, #9199a1 100%);
+	background: -ms-linear-gradient(45deg, #005348 0%, #9199a1 100%); */
+	background: linear-gradient(45deg, #005348 0%, #acb3b9 100%) repeat;
 	/* background: #6495ED;
 	background: -moz-linear-gradient(45deg, #6495ED 0%, #7AB8CC 100%);
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #6495ED), color-stop(100%, #7AB8CC));
@@ -430,8 +430,16 @@ body>.navbar .brand:hover {
 .lead {
 	margin-bottom: 0px;
 	font-size: 21px;
-	font-weight: 200;
+	font-weight: 250;
 	line-height: 15px;
+}
+
+.jumbotron h1 {
+  font-size: 48px; 
+  line-height: 48px; 
+  font-weight: 600;  
+  margin-top: 20px; 
+  margin-bottom: 10px;
 }
 
 img.float-left {
@@ -526,7 +534,7 @@ ul.sponsors {
 	border-top-width: 8px;
 	border-top-style: solid;
 	border-top-color: #c0e7f7;
-	background-color: #008686;
+	background-color: #007777;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
